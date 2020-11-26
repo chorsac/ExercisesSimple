@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>título </title>
+</head>
+
+<style>
+body {
+    background: url(https://raw.githubusercontent.com/mariofornaroli/y-responsive-login-page/main/images/bk.png) no-repeat center;  
+    background-color: #023262; 
+
+
+min-height: 94vh;
+    font-size: 2px;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+
+<body>
+
+ <tr>
+<input type="text" id="num1"/> +</tr>
+<tr>
+<input type="text" id="num2"/> </tr>
+<tr>
+<input type="text" id="sum" readonly="readonly"/> = 
+
+
+<tr>
+<input type="button" value="Calculate the sum" onclick="calc()"/> </tr>
+
+
+<script>
+    function calc() {
+        let num1 = Number(document.querySelector("#num1").value);
+        let num2 = Number(document.querySelector("#num2").value);
+        let sum = num1 + num2;
+        document.getElementById("sum").value = sum;
+    }
+</script>
+ 
+</body>
+</html>
