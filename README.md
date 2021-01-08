@@ -1,3 +1,4 @@
 # ExercisesSimple
-Exercises simple html css js
-calculator calculadora 
+Example 01 calculadora
+Example 02 calculadora
+Example 03 agenda con firebase 
