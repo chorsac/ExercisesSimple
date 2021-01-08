@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "medusa";
+	src: url("../fonts/medusa_gothic.otf");
+}
+
+.a-bg {
+	background-color: #53abc5;
+	border-radius: 20px;
+	-webkit-box-shadow: 5px 5px 19px 0px rgba(0,0,0,0.28);
+	-moz-box-shadow: 5px 5px 19px 0px rgba(0,0,0,0.28);
+	box-shadow: 5px 5px 19px 0px rgba(0,0,0,0.28);
+}
+.row-header {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-top: 20px;
+	text-align: center;
+}
+.col-header {
+	height: 50px;
+	background-color: white;
+	color: black !important;
+	padding-top: 12px;
+}
+.contact-delete {
+	color: #b14a4a;
+	font-size: .7em;
+}
+.row-body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	height: 300px;
+	overflow-y: auto;
+}
+.col-body {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.row-contact {
+	padding:10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.form-pad {
+	padding-top: 10px;
+}
+.form-last {
+	padding-top: 10px;
+}
+.contact-delete {
+	padding: 5px;
+}
